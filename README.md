@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [xxx]
-- Live Site URL: [xxx]
+- Solution URL: [https://github.com/t13cedesign/08.Base-Apparel-coming-soon-page-challenge-on-Frontend-Mentor]
+- Live Site URL: [https://t13cedesign.github.io/08.Base-Apparel-coming-soon-page-challenge-on-Frontend-Mentor/]
 
 ## My process
 
