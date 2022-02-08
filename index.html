@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+<body>
+  <main class="container">
+    <div class="container__logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <div class="container__image">
+      <img src="images/hero-mobile.jpg"
+         srcset="images/hero-mobile.jpg 1023w,
+                 images/hero-desktop.jpg 1024w"
+         sizes="(min-width: 600px) 600px 300px"
+         alt="">
+    </div>
+    <div class="container__info">
+      <section class="info__inner">
+        <h1>
+          We're <span>coming soon</span>
+        </h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+      </section>
+      <section class="info__form">
+        <div class="form__email" id="formulario">
+          <form action="/">
+            <input type="email" name="Email Address" id="email" placeholder="Email Address">
+            <img src="images/icon-error.svg" alt="Error icon" class="error-icon">
+            <div><p class="error-message"></p></div>
+          </form>
+          <button type="submit" form="email" aria-label="submit" id="submit">
+            <img src="images/icon-arrow.svg" alt="Arrow icon">
+          </button>
+        </div>
+          <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/t13cedesign">j3renes</a>.
+    </p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    
+  </footer>
+<script src="motor.js"></script>
+</body>
+</html>
